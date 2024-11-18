@@ -17,6 +17,7 @@ public class ejercicio1 {
             System.out.printf("El número: %.0f, es un número positivo.", numero);
         }
         
+        scanner.close();
     }
 
 }

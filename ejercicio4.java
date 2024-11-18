@@ -13,5 +13,6 @@ public class ejercicio4 {
         }else{
             System.out.println("La letra que ingresaste está en minúscula");
         }
+        entrada.close();
     }
 }

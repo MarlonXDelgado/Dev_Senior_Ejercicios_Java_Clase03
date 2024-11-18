@@ -13,5 +13,6 @@ public class ejercicio3 {
         } else{
             System.out.println("El numero ingresado no es par");
         }
+        entrada.close();
     }
 }
