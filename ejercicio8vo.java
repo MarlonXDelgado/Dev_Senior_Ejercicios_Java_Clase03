@@ -21,7 +21,7 @@ public class ejercicio8vo {
         }else{
             System.out.println("Usted se encuentra  en la etapa de: Persona mayor");
         }
-
+        entrada.close();
         
     }
 }
