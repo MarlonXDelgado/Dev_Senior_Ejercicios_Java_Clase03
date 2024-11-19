@@ -19,5 +19,6 @@ public class ejercicio9no {
         }else if (unidades > 200) {
             System.out.println("La unidad le sale a $25.000");
         }
+        entrada.close();
     }
 }
