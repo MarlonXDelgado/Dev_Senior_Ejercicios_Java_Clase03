@@ -23,7 +23,7 @@ public class ejercicio11 {
             numero3 = entrada.nextInt();
         }
 
-        
+        entrada.close();
 
     }
 }
