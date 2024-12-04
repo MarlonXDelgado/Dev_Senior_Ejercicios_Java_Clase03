@@ -5,14 +5,18 @@ import java.util.Scanner;
 public class ejercicio19 {
     public static void main(String[] args) {
         var entrada = new Scanner(System.in);
-        int numerosSucesion;
-        ArrayList<Integer> fibonacci = new ArrayList<>(Arrays.asList(0,1));
+        int a = 0, b = 1, numero;
 
-        System.out.println("Ingrese la cantidad de numeros de la secuenia de fibonacci que desea ver: ");
-        numerosSucesion = entrada.nextInt();
+        System.out.print("Ingrese el número de términos de la sucesión de Fibonacci que desea ver: ");
+        numero = entrada.nextInt();
 
-        for (int i = 0; i < numerosSucesion; i++) {
-            
+        for (int i = 1; i <= numero; i++) {
+            System.out.print(a + " ");
+            int siguiente = a + b; 
+            a = b;                
+            b = siguiente;
         }
+        System.out.println();
+        entrada.close();
     }
 }
