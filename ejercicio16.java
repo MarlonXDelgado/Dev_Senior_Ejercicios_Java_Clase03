@@ -17,5 +17,6 @@ public class ejercicio16 {
         } while (numero <= 0);
 
         System.out.println("La cantidad de números negativos ingresados fue de: " + numerosNegativos.size());
+        entrada.close();
     }
 }

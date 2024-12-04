@@ -12,5 +12,7 @@ public class ejercicio14 {
         }
         
         while (numero >= 0);
+
+        entrada.close();
     }
 }
